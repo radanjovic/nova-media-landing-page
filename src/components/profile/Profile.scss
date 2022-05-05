@@ -1,0 +1,22 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.profileSection {
+    margin-top: 580px;
+    margin-bottom: 100px;
+    
+    h2 {
+      margin-bottom: 50px;
+    }
+
+    div {
+        text-align: center;
+        @include flex(center, space-between);
+        flex-wrap: wrap;
+    }
+
+    button {
+        @include button($red);
+        margin: 30px auto;
+    }
+}

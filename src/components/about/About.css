@@ -1,0 +1,62 @@
+.aboutSection {
+  position: relative;
+  bottom: 100px;
+}
+
+.aboutSection div {
+  float: left;
+}
+
+.aboutSection .aboutImage {
+  width: 50%;
+  max-width: 650px;
+}
+
+.aboutSection .aboutImage img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 100%;
+}
+
+.aboutSection .aboutContent {
+  position: absolute;
+  right: 0;
+  top: 55px;
+  background-color: #FFF;
+  width: 55%;
+  padding: 30px 20px 30px 30px;
+  -webkit-box-shadow: 1px 1px 12px -3px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 12px -3px rgba(0, 0, 0, 0.5);
+}
+
+.aboutSection .aboutContent p {
+  font-size: 17px;
+  line-height: 25px;
+  color: #000;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+
+.aboutSection .aboutContent button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  padding: 20px 40px;
+  background-color: #983645;
+  margin: 10px 0px;
+}
+/*# sourceMappingURL=About.css.map */
