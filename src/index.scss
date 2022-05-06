@@ -3,6 +3,7 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 
 
 .container {
+  min-width:655px;
   width: 64%;
   max-width: 1230px;
   margin: auto;

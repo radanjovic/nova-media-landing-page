@@ -5,7 +5,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 30px 0px;
 }
 
 .detailsSection .detailsCover {
@@ -28,7 +27,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding-top: 40px;
+  gap: 10px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -40,7 +39,6 @@
 .detailsSection .detailsContainer ul {
   padding: 0;
   list-style-type: none;
-  margin-bottom: 30px;
 }
 
 .detailsSection .detailsContainer ul li {
@@ -71,11 +69,51 @@
   color: #FFF;
   padding: 20px 40px;
   background-color: #071c25;
-  opacity: 1;
+}
+
+@media screen and (max-width: 1365px) {
+  .detailsSection .detailsContainer button {
+    padding: 15px 30px;
+  }
 }
 
 .detailsSection .detailsImage {
   position: relative;
-  top: 30px;
+}
+
+.detailsSection .detailsImage img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (max-width: 1179px) {
+  .detailsImage {
+    top: 50px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .detailsImage {
+    top: 30px;
+  }
+}
+
+@media screen and (max-width: 1427px) {
+  .detailsSection .detailsContainer {
+    padding-top: 10px;
+  }
+  .detailsSection .detailsContainer ul {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1428px) {
+  .detailsSection .detailsContainer {
+    padding-top: 40px;
+  }
+  .detailsSection .detailsContainer ul {
+    margin-bottom: 30px;
+  }
 }
 /*# sourceMappingURL=Details.css.map */

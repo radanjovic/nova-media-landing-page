@@ -8,10 +8,10 @@
 
     .footerNav {
         @include flex(center, space-between);
-        gap: 15%;
 
         .footerNavLinks {
             @include flex(center, space-between);
+            gap: 10px;
             flex-wrap: wrap;
             flex-grow: 1;
 
@@ -56,5 +56,31 @@
         span {
             font-weight: 600;
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footerNav {
+        gap: 20px;
+    }
+
+    .footerImage {
+        width: 25%;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width: 1365px) {
+    .footerNav {
+        gap: 10%;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .footerNav {
+        gap: 15%;
     }
 }

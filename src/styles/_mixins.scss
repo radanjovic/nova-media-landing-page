@@ -18,4 +18,8 @@
     } @else {
         background: none;
     }
+
+    @media screen and (max-width: 1365px) {
+        padding: 15px 30px;
+    }
 }

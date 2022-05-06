@@ -11,7 +11,7 @@ const Profile = () => {
     <section id='profile' className='container profileSection'>
         <br />
        <h2 className='heading text-center'>Leistungsprofil</h2>
-       <div>
+       <div className='profileCardsDiv'>
          {titles.map(title => <ProfileContainer text={title} />)}
        </div>
        <button type='button' className='pointer'><IoIosArrowForward /><span>MEHR INFO</span></button>

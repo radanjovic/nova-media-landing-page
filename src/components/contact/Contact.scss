@@ -22,9 +22,7 @@
         color: $red;
         text-align: center;
 
-        position: absolute;
-        top: 270px;
-        left: 46.5%;
+        position: absolute;  
     }
 
     .contactContent {
@@ -34,8 +32,6 @@
         color: $black;
 
         position: relative;
-        top:270px;
-        left: 53%;
 
         h3 {
             margin: 0;
@@ -105,5 +101,66 @@
             left: -19px;
             top: 40px;
         }
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .contactPin {
+        top: 260px;
+        left: 45.6%;
+    }
+
+    .contactContent {
+        top: 260px;
+        left: 58%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .contactPin {
+        top: 260px;
+        left: 45.6%;
+    }
+
+    .contactContent {
+        top: 260px;
+        left: 56%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contactPin {
+        top: 260px;
+        left: 45.8%;
+    }
+
+    .contactContent {
+        top: 260px;
+        left: 54%;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .contactPin {
+        top: 270px; 
+        left: 46.5%;
+    }
+
+    .contactContent {
+        top:270px;
+        left: 53%;
+    }
+}
+@media screen and (min-width: 2050px) {
+    .contactPin {
+        top: 270px; 
+        left: 47%;
+    }
+
+    .contactContent {
+        top:270px;
+        left: 52%;
     }
 }

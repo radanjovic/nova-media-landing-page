@@ -10,7 +10,7 @@ const Details = () => {
     <section className='detailsSection'>
         <div className='detailsCover'>
             <div className='container detailsContainer'>
-                <div>
+                <div className='detailsList'>
                     <h2 className='heading'>Leistungen im Detail</h2>
                     <ul>
                         <li>Offline-Programmierung</li>

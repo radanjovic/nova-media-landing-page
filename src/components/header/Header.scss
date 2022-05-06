@@ -87,9 +87,9 @@
             margin: 0;
             padding-top: 10px;
             padding-bottom: 50px;
-            font-size: 86px;
             font-weight: 500;
-            line-height: 90px;
+            // font-size: 86px;
+            // line-height: 90px;
 
             span {
                 font-weight: 800;
@@ -118,13 +118,31 @@
     }
 }
 
-@media screen and (max-width: 1499px) {
+@media screen and (max-width: 1180px) {
     .headerContentDiv {
-        margin-top: 150px
+        h1 {
+            font-size: 64px;
+            line-height: 60px;
+        }
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1181px) {
+    .headerContentDiv {
+        h1 {
+            font-size: 86px;
+            line-height: 90px;
+        }
+    }
+}
+
+@media screen and (max-width: 1471px) {
+    .headerContentDiv {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 1472px) {
     .headerContentDiv {
         margin-top: 200px;
     }
