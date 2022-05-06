@@ -1,6 +1,6 @@
 # Opis Projekta
 
-Landing stranica napravljena kao probni projekat. Imajuci u vidu da je dizajn pravljen samo za desktop i to (najvjerovatnije) za rezoluciju 1920px sirine, ovaj projekat je i prevashodno pravljen da zadovolji zeljeni izgled na monitoru od 1920px sirine, dok su media queries dodate za manje monitore, a kako stranica ne bi 'pucala'...
+Landing stranica napravljena kao probni projekat. Imajuci u vidu da je dizajn pravljen samo za desktop i to (najvjerovatnije) za rezoluciju 1920px sirine, ovaj projekat je i prevashodno pravljen da zadovolji zeljeni izgled na monitoru od 1920px sirine, dok su media queries dodate za manje desktop monitore, a kako stranica ne bi 'pucala' na njima. Mobile responsivness nije dodat, jer nije bio dio xd fajla.
 
 Prije pokretanja sopstvenog servera za ovaj projekat, instalirati dependencies sa `npm i`.
 
